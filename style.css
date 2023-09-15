@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  position: static;
+  border-radius: 1em;
+  padding: 1%;
+  min-width: 23rem;
+  background: #25282a;
+  width: 90vw;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+img {
+  position: static;
+  border-radius: 10%;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.all-img {
+  position: static;
+  width: 100%;
+  display: flex;
+  transition: all 1s;
+}
+.slide-container {
+  position: static;
+  max-width: 30rem;
+  margin: 2% auto;
+  background: #25282a;
+  text-align: center;
+}
+
+.vision-zone {
+  overflow: hidden;
+  position: static;
+  margin: auto;
+  max-width: 80vw;
+}
