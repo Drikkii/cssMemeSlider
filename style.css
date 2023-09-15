@@ -40,3 +40,129 @@ img {
   margin: auto;
   max-width: 80vw;
 }
+.button {
+  position: static;
+  display: block;
+  width: 1em;
+  height: 1em;
+  background-color: #7faae8;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 0.5rem solid #25282a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button:hover p {
+  position: static;
+  width: 65%;
+  height: 65%;
+  background-color: #e7e1e1fb;
+  border-radius: 50%;
+  border: 0.2rem solid #e7e1e1fb;
+}
+.all-button {
+  position: static;
+  z-index: 99;
+  background-color: #25282a;
+  display: flex;
+  align-items: flex-end;
+}
+.all-text {
+  position: static;
+  color: white;
+  width: 60%;
+  display: flex;
+}
+.all-text div {
+  position: static;
+  flex-shrink: 0;
+  width: 20rem;
+  opacity: 0;
+  height: 2rem;
+  line-height: 2rem;
+}
+.b-hover {
+  position: static;
+  cursor: pointer;
+}
+.all-labels {
+  position: static;
+  z-index: 99;
+  margin-left: 50%;
+  width: 50em;
+}
+.img-text {
+  position: static;
+  display: flex;
+  width: 20rem;
+  text-align: left;
+}
+
+#slide-1,
+#slide-2,
+#slide-3,
+#slide-4 {
+  position: static;
+  display: none;
+}
+#slide-1:checked ~ .img-text .all-button label[for="slide-1"] p {
+  position: static;
+  width: 65%;
+  height: 65%;
+  background-color: #6666cb86;
+  border-radius: 50%;
+  border: 0.2em solid #7faae8;
+  background-color: #242726;
+}
+#slide-1:checked ~ .img-text .all-button label[for="slide-1"]:hover p {
+  position: static;
+  border: 0.2em solid #7faae8;
+}
+#slide-2:checked ~ .img-text .all-button label[for="slide-2"] p {
+  position: static;
+  width: 65%;
+  height: 65%;
+  background-color: #6666cb86;
+  border-radius: 50%;
+  border: 0.2em solid #7faae8;
+  background-color: #242726;
+}
+#slide-2:checked ~ .img-text .all-button label[for="slide-2"]:hover p {
+  position: static;
+  border: 0.2em solid #7faae8;
+}
+#slide-3:checked ~ .img-text .all-button label[for="slide-3"] p {
+  position: static;
+  width: 65%;
+  height: 65%;
+  background-color: #6666cb86;
+  border-radius: 50%;
+  border: 0.2em solid #7faae8;
+  background-color: #242726;
+}
+
+#slide-3:checked ~ .img-text .all-button label[for="slide-3"]:hover p {
+  position: static;
+  border: 0.2em solid #7faae8;
+}
+#slide-4:checked ~ .img-text .all-button label[for="slide-4"] p {
+  position: static;
+  background-color: #6666cb86;
+  border-radius: 50%;
+  border: 0.2em solid #7faae8;
+  background-color: #242726;
+
+  width: 65%;
+  height: 65%;
+}
+#slide-4:checked ~ .img-text .all-button label[for="slide-4"]:hover p {
+  position: static;
+  border: 0.2em solid #7faae8;
+}
+#slide-4:checked ~ .img-text .all-text #text-4 {
+  position: static;
+  opacity: 1;
+  margin-left: -60em;
+  transition: opacity 3s;
+}
