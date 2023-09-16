@@ -152,7 +152,6 @@ img {
   border-radius: 50%;
   border: 0.2em solid #7faae8;
   background-color: #242726;
-
   width: 65%;
   height: 65%;
 }
@@ -165,4 +164,57 @@ img {
   opacity: 1;
   margin-left: -60em;
   transition: opacity 3s;
+}
+#slide-3:checked ~ .img-text .all-text #text-3 {
+  position: static;
+  opacity: 1;
+  margin-left: -40em;
+  transition: opacity 3s;
+}
+#slide-2:checked ~ .img-text .all-text #text-2 {
+  position: static;
+  opacity: 1;
+  margin-left: -20em;
+  transition: opacity 3s;
+}
+#slide-1:checked ~ .img-text .all-text #text-1 {
+  position: static;
+  opacity: 1;
+  transition: opacity 3s;
+}
+/* Sleders - margin */
+
+#slide-2:checked ~ .all-img {
+  position: static;
+  margin-left: -100%;
+}
+
+#slide-3:checked ~ .all-img {
+  position: static;
+  margin-left: -200%;
+}
+
+#slide-4:checked ~ .all-img {
+  position: static;
+  margin-left: -300%;
+}
+/* ____________  */
+@media (max-width: 600px) {
+  .img-text {
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+    text-align: left;
+  }
+  .all-labels {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+  }
+  .all-button {
+    margin-left: 0;
+    text-align: center;
+  }
 }
