@@ -198,8 +198,8 @@ img {
   position: static;
   margin-left: -300%;
 }
-/* ____________  */
-@media (max-width: 600px) {
+/* ____________ media 600px  */
+@media (max-width: 37.5em) {
   .img-text {
     margin: auto;
     display: flex;
