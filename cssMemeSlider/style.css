@@ -201,7 +201,6 @@ img {
 /* ____________ media 600px  */
 @media (max-width: 37.5em) {
   .img-text {
-    margin: auto;
     display: flex;
     flex-direction: column-reverse;
     width: 90%;
@@ -211,7 +210,7 @@ img {
     display: flex;
     justify-content: center;
     margin: auto;
-    width: 100%;
+    width: 110%;
   }
   .all-button {
     margin-left: 0;
